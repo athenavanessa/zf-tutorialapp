@@ -43,6 +43,7 @@ return array(
     'Psr\\Container\\' => array($vendorDir . '/psr/container/src'),
     'Interop\\Container\\' => array($vendorDir . '/container-interop/container-interop/src/Interop/Container'),
     'Csanquer\\Silex\\PdoServiceProvider\\' => array($vendorDir . '/csanquer/pdo-service-provider/src'),
+    'Blog\\' => array($baseDir . '/module/Blog/src'),
     'Application\\' => array($baseDir . '/module/Application/src'),
     'ApplicationTest\\' => array($baseDir . '/module/Application/test'),
     'Album\\' => array($baseDir . '/module/Album/src'),

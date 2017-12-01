@@ -66,6 +66,10 @@ class ComposerStaticInit15de8ae94da87e7141bec9be0ef0c300
         array (
             'Csanquer\\Silex\\PdoServiceProvider\\' => 34,
         ),
+        'B' => 
+        array (
+            'Blog\\' => 5,
+        ),
         'A' => 
         array (
             'Application\\' => 12,
@@ -222,6 +226,10 @@ class ComposerStaticInit15de8ae94da87e7141bec9be0ef0c300
         'Csanquer\\Silex\\PdoServiceProvider\\' => 
         array (
             0 => __DIR__ . '/..' . '/csanquer/pdo-service-provider/src',
+        ),
+        'Blog\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/module/Blog/src',
         ),
         'Application\\' => 
         array (
