@@ -3,6 +3,8 @@
 use Zend\Mvc\Application;
 use Zend\Stdlib\ArrayUtils;
 //phpinfo();
+
+
 /**
  * Display all errors when APPLICATION_ENV is development.
  */

@@ -11,6 +11,8 @@
  * file.
  */
 
+$dbopts = parse_url(getenv('DATABASE_URL'));
+
 return [
     'db' => [
         'driver' => 'Pdo',
@@ -19,6 +21,9 @@ return [
         //'driver_options' => [
         //    PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES \'UTF8\''
         //],
-        'dsn' => 'pgsql:host=localhost;dbname=zf3',
+        //'dsn' => 'pgsql:host=localhost;dbname=zf3',
+        'dsn' => 'pgsql:dbname='.ltrim($dbopts["path"],'/').';host='.$dbopts["host"] . ';port=' . $dbopts["port"],
+        'username' => $dbopts["user"],
+        'password' => $dbopts["pass"]    
     ],
 ];
