@@ -18,7 +18,9 @@
         "zfcampus/zf-development-mode": "^3.0",
         "zendframework/zend-db": "^2.8.1",
         "zendframework/zend-mvc-form": "^1.0",
-        "csanquer/pdo-service-provider": "~1.1dev"
+        "csanquer/pdo-service-provider": "~1.1dev",
+        "zendframework/zend-navigation": "^2.8",
+        "zendframework/zend-paginator": "^2.8"
     },
     "autoload": {
         "psr-4": {

@@ -22,6 +22,8 @@ class ComposerStaticInit15de8ae94da87e7141bec9be0ef0c300
             'Zend\\Stdlib\\' => 12,
             'Zend\\ServiceManager\\' => 20,
             'Zend\\Router\\' => 12,
+            'Zend\\Paginator\\' => 15,
+            'Zend\\Navigation\\' => 16,
             'Zend\\Mvc\\' => 9,
             'Zend\\ModuleManager\\' => 19,
             'Zend\\Loader\\' => 12,
@@ -96,6 +98,14 @@ class ComposerStaticInit15de8ae94da87e7141bec9be0ef0c300
         'Zend\\Router\\' => 
         array (
             0 => __DIR__ . '/..' . '/zendframework/zend-router/src',
+        ),
+        'Zend\\Paginator\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/zendframework/zend-paginator/src',
+        ),
+        'Zend\\Navigation\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/zendframework/zend-navigation/src',
         ),
         'Zend\\Mvc\\' => 
         array (
