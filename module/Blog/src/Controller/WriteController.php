@@ -69,8 +69,8 @@ class WriteController extends AbstractActionController
         }
 
         return $this->redirect()->toRoute(
-            'blog/detail',
-            ['id' => $post->getId()]
+            'blog'//detail',
+            //['id' => $post->getId()]
         );
     }
 

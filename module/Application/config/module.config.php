@@ -87,6 +87,32 @@ return [
                     ],
                 ],
             ],
+            [
+                'label' => 'Blog',
+                'route' => 'blog',
+                'pages' => [
+                    [
+                        'label'  => 'Detail',
+                        'route'  => 'blog',
+                        'action' => 'detail',
+                    ],
+                    [
+                        'label'  => 'Add',
+                        'route'  => 'blog',
+                        'action' => 'add',
+                    ],
+                    [
+                        'label'  => 'Edit',
+                        'route'  => 'blog',
+                        'action' => 'edit',
+                    ],
+                    [
+                        'label'  => 'Delete',
+                        'route'  => 'blog',
+                        'action' => 'delete',
+                    ],
+                ],
+            ],
         ],
     ],
 ];
