@@ -15,9 +15,10 @@ return [
     'db' => [
         'driver' => 'Pdo',
         //'dsn'    => sprintf('sqlite:%s/data/zftutorial.db', realpath(getcwd())),
-        'dsn'    => 'mysql:dbname=zf3;hostname=localhost',
-        'driver_options' => [
-            PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES \'UTF8\''
-        ],
+        //'dsn'    => 'mysql:dbname=zf3;hostname=localhost',
+        //'driver_options' => [
+        //    PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES \'UTF8\''
+        //],
+        'dsn' => 'pgsql:host=localhost;dbname=zf3',
     ],
 ];
